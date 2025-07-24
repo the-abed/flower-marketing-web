@@ -24,6 +24,9 @@ header,main{
 .orange-color{
     color: rgba(233, 90, 8, 1);
 }
+.gray-color{
+    color: rgba(0, 0, 0, 0.5);
+}
 
 /* nav bar style */
 
@@ -87,6 +90,28 @@ header,main{
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.25rem;
     font-weight: 500;
+}
+/* Plants section */
+
+.plants-titile{
+    margin: 0 auto;
+    text-align: center;
+}
+.plants-titile h2{
+    color: rgba(0, 0, 0, 1);
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+.plants-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.card-bottom{
+  text-align: center;
+}
+.card-bottom p{
+    
 }
 
 
