@@ -23,7 +23,12 @@ header,
 main {
     max-width: 1140px;
     margin: 0 auto;
-
+}
+footer{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .orange-color {
@@ -192,7 +197,10 @@ main {
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+
 /* deals-section style */
+
 .deals-heading{
     margin: 120px auto;
     text-align: center;
@@ -264,7 +272,32 @@ main {
     gap: 20px;
     width: 367px;
 }
+.join{
+    background-image: url(./assets/news-letter-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.join-section-container{
+    padding: 190px 300px;
+}
+.join-textarea{
+   display: flex;
+   justify-content: center;
+}
+.join h4{
+    margin-bottom: 15px;
+}
+.footer-input{
+    padding-left: 20px;
+    padding-right: 300px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    border: none;
 
+}
 
 
 
@@ -299,35 +332,7 @@ main {
 
     }
 
-    .banner-container {
-
-        flex-direction: column;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        gap: 25px;
-        margin: 0px auto;
-
-    }
-
-    .banner-feature {}
-
-    .banner-feature img {
-        width: 100%;
-        margin-top: 28px;
-    }
-
-    .banner-feature h2 {
-        font-size: 1.5rem;
-        margin-top: 0%;
-        text-align: left;
-    }
-
-    .banner-feature p {
-        font-size: 1rem;
-    }
-
-
+    
     .plants,
     .deals-img{
         display: grid;
@@ -399,7 +404,8 @@ main {
         width: 361px;
         margin: 0% auto;
     }
-    .deals-img h4{
+    .deals-img h4,
+    .join-section-container h4{
         font-size: 1.25rem;
     }
     .deals-img-right{
@@ -418,11 +424,29 @@ main {
     }
     .deals-img-left h4{
         margin-top: 60px;
-        
     }
     .deals-img-right p{
     font-size: 1rem;
     font-weight: 500;
+}
+.join{
+    max-width: 390px;
+    height: 280px;
+    margin-top: 200px;
+    }
+.join-section-container{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 0px;
+}
+.footer-input{
+    padding: 0px 0px 0px 10px;
+    max-width: 250px;
+}
+.join button{
+    padding: 20px 10px 20px 10px;
+    width: 100px;
 }
 
 }
