@@ -101,17 +101,35 @@ header,main{
     color: rgba(0, 0, 0, 1);
     font-size: 3.25rem;
     font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 .plants-card{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
+    margin-top: 50px;
 }
 .card-bottom{
   text-align: center;
 }
 .card-bottom p{
-    
+   font-size: 1.25;
+   font-weight: 600;
+   margin: 0px auto;
+   padding-top: 20px; 
+}
+.card-bottom h4{
+    font-size: 1.25rem;
+    margin: 0px auto;
+    padding: 10px 0px 20px 0px;
+}
+.button-primary{
+    background-color: rgba(233, 90, 8, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 88px;
+    border: none;
+    font-weight: 600;
 }
 
 
@@ -124,8 +142,10 @@ header,main{
         display: none;
     }
     .nav-bar{
+        max-width: 361px;
         height: 38px;
         display: flex;
+        justify-content: space-between; */
         align-items: center;
         margin: 10px auto;
     }
@@ -135,23 +155,28 @@ header,main{
        align-items: center;
        margin: 40px 0px 0px 10px;
     }
-    .nav-cart{
-        margin: 40px 10px 0px 0px;
+     .nav-cart{
+        margin-top: 30px;
+        /* margin-left: 190px; */
         font-size: 1.25rem;
-    }
+        
+    } 
     .banner-container{
+       
         flex-direction: column;
         flex-direction: column-reverse;
         gap: 25px;
         margin: 0 auto;
     }
     .banner-feature img{
+        flex: 1 1 100%;
         width: 100%;
         margin-top: 28px;
-    }
+    } 
     .banner-feature{
-        margin: 0px 16px;
-
+        margin: 0px auto;
+        
+       
     }
     .banner-feature h2{
         font-size: 1.5rem;
@@ -159,5 +184,41 @@ header,main{
     .banner-feature p{
         font-size: 1rem;
     }
+
+    
+    .plants{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        
+    }
+   .plants-titile{
+    text-align: center;
+   } 
+   .plants-titile h2{
+    font-size: 1.25rem;
+   }
+    
+    .plants-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .card-container{
+        /* max-width: 171px; */
+        margin: 0 auto;
+    }
+    .card-container img{
+        width: 100%;
+    }
+    .card-bottom h4{
+        font-size: 1rem;
+        padding-top: 5px;
+    }
+    .button-primary{
+        padding: 15px 45px;
+    }
+    
  }
     
