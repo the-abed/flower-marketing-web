@@ -1,1 +1,1 @@
-([Live link](https://the-abed.github.io/flower-marketing-web/))
+[Live link](https://the-abed.github.io/flower-marketing-web/)
